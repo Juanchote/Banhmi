@@ -22,7 +22,7 @@ import sys
 from core.base.Bootstrap import Bootstrap
 from core.base.GlobalRegistry import GlobalRegistry
 
-EVENT_LOOP_ERROR = 'Waring!, Error stopping the application, the eventloop \
+EVENT_LOOP_ERROR = 'Warning!, Error stopping the application, the eventloop \
  could be still running {}'
 
 class Shutdown(Exception):
